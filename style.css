@@ -33,6 +33,28 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8CC090 #0E1A2E;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #0E1A2E;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8CC090;
+    border-radius: 0px;
+    border: 0px solid #ffffff;
+  }
+
 /* Header */
 header {
   background: #0e1a2e;
